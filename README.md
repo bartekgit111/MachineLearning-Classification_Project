@@ -68,40 +68,6 @@ The solution explores the following steps:
 
 ---
 
-##  Getting Started
-
-### Prerequisites
-
-```bash
-pip install numpy pandas scikit-learn matplotlib seaborn xgboost lightgbm jupyter
-```
-
-### Running the Project
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/bartekgit111/MachineLearning-Classification_Project.git
-   cd MachineLearning-Classification_Project/ml_projekt
-   ```
-
-2. Place the data files in the project directory:
-   ```
-   artifical_train_data.csv
-   artifical_train_labels.csv
-   artifical_test_data.csv
-   ```
-
-3. Open and run the notebooks in order:
-   ```bash
-   jupyter notebook
-   ```
-
-4. The final prediction file will be saved as:
-   ```
-   <STUDENT_ID>_artifical_prediction.txt
-   ```
-
----
 
 ##  Output Files
 
@@ -111,18 +77,6 @@ pip install numpy pandas scikit-learn matplotlib seaborn xgboost lightgbm jupyte
 | `Kody/` | All source code notebooks and scripts |
 | `<ID>_raport.pdf` | Project report (max 4 pages, in Polish) |
 
----
-
-##  Results
-
-| Model | CV Balanced Accuracy |
-|-------|----------------------|
-| Logistic Regression | — |
-| Random Forest | — |
-| Gradient Boosting | — |
-| **Best Model** | **—** |
-
-> Results will be filled in after experiments are complete.
 
 ---
 
