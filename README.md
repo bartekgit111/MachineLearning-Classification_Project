@@ -1,4 +1,4 @@
-# 🤖 Machine Learning Classification Project
+# Machine Learning Classification Project
 
 > **Course:** Wstęp do Uczenia Maszynowego (Introduction to Machine Learning)  
 > **Task:** Binary classification on an artificially generated dataset  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project proposes and evaluates a classification pipeline designed to maximize **balanced accuracy** on a synthetic dataset with hidden informative features. The dataset contains 100 explanatory variables, many of which may be irrelevant or redundant — a key challenge of this task is identifying and leveraging the truly predictive ones.
 
@@ -14,7 +14,7 @@ The goal is to output **class-1 membership probabilities** for each test observa
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 MachineLearning-Classification_Project/
@@ -25,7 +25,7 @@ MachineLearning-Classification_Project/
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 | Split          | File                          | Size             |
 |----------------|-------------------------------|------------------|
@@ -39,7 +39,7 @@ MachineLearning-Classification_Project/
 
 ---
 
-## 📐 Evaluation Metric
+## Evaluation Metric
 
 **Balanced Accuracy (BA)** — accounts for class imbalance by averaging per-class recall:
 
@@ -51,7 +51,7 @@ Where:
 
 ---
 
-## 🛠️ Methodology
+##  Methodology
 
 The solution explores the following steps:
 
@@ -68,7 +68,7 @@ The solution explores the following steps:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -103,7 +103,7 @@ pip install numpy pandas scikit-learn matplotlib seaborn xgboost lightgbm jupyte
 
 ---
 
-## 📦 Output Files
+##  Output Files
 
 | File | Description |
 |------|-------------|
@@ -113,7 +113,7 @@ pip install numpy pandas scikit-learn matplotlib seaborn xgboost lightgbm jupyte
 
 ---
 
-## 🧪 Results
+##  Results
 
 | Model | CV Balanced Accuracy |
 |-------|----------------------|
@@ -126,7 +126,7 @@ pip install numpy pandas scikit-learn matplotlib seaborn xgboost lightgbm jupyte
 
 ---
 
-## 📚 Technologies Used
+##  Technologies Used
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.x-orange?logo=scikit-learn)
@@ -136,6 +136,6 @@ pip install numpy pandas scikit-learn matplotlib seaborn xgboost lightgbm jupyte
 
 ---
 
-## 📝 License
+##  License
 
 This project is an academic assignment for the *Introduction to Machine Learning* course at **Warsaw University of Technology (WUT)**. Not intended for redistribution.
